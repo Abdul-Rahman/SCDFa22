@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans   
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="q" class="alphapeeler.Question">  
+<constructor-arg value="11"></constructor-arg>  
+<constructor-arg value="What is AlphaPeeler?"></constructor-arg>  
+<constructor-arg>  
+<map>  
+<entry key="AlphaPeeler is a cryptography software"  value="Dr. Kamran"></entry>  
+<entry key="AlphaPeeler is listed in CEHv11 Module 20" value="Dr. Ayesha"></entry>  
+<entry key="AlphaPeeler is listed in CEHv11 Module 20" value="Dr. Ayesha"></entry>  
+<entry key="AlphaPeeler is listed in Cryptography and Network Security by Dr. William Stallings" value="Dr. Ayesha"></entry>  
+<entry key="AlphaPeeler is listed in Crypto++ API page" value="Engr. Shahbaz Ahmed Siddiqui"></entry>  
+</map>  
+</constructor-arg>  
+</bean>  
+  
+</beans>  
